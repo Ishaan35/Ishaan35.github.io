@@ -1,0 +1,54 @@
+
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container{
+    
+    position: relative;
+    margin: auto;
+    width: 90%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.container .projectBox{
+    position: relative;
+    max-width: 100%;
+    background: #e4e4e4;
+    margin: 10px;
+    padding: 15px;
+    display: block;
+    border-radius: 1.5vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5vh;
+}
+
+.content{
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.imgBox{
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgBox img{
+    border-radius: 1.5vh;
+}
+
+.projectLink{
+    display: inline;
+    transition: 0.3s ease-in;
+    padding-right: 3vw;
+}
