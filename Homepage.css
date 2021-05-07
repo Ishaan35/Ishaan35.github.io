@@ -43,7 +43,7 @@ nav{
  .nav-links{
    display: flex;
    justify-content: space-around;
-   width: 50%;
+   width: 60%;
    z-index: 10;
 
  }
