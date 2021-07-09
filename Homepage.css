@@ -1,170 +1,160 @@
-*{
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   overflow-x: hidden;
-
-
 }
 
-
-
-body{
+body {
   animation-name: opacityFade;
   animation-duration: 1s;
 }
 
-
 @keyframes opacityFade {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
   min-height: 11vh;
   background-color: #1c1c1c;
-  font-family: 'Montserrat', sans-serif;
- }
+  font-family: "Montserrat", sans-serif;
+}
 
- .logo{
-   color: rgb(241, 241, 241);
-   letter-spacing: 2px;
-   font-size: 25px;
-   font-weight: 800;
-   margin-left: -100px;
+.logo {
+  color: rgb(241, 241, 241);
+  letter-spacing: 2px;
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: -100px;
+}
 
- }
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  z-index: 10;
+}
 
- .nav-links{
-   display: flex;
-   justify-content: space-around;
-   width: 60%;
-   z-index: 10;
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  vertical-align: middle;
+  z-index: 0;
+}
 
- }
-
- .footer-links{
-   display: flex;
-   justify-content: space-around;
-   width: 45%;
-   vertical-align: middle;
-   z-index: 0;
-
- }
-
- .nav-links a{
+.nav-links a {
   color: rgb(241, 241, 241);
   letter-spacing: 1px;
   font-size: 15px;
   transition: 0.4s;
+}
 
- }
+.nav-links :hover {
+  color: rgb(194, 194, 194);
+}
 
- .nav-links  :hover{
-    color: rgb(194, 194, 194);
- }
+.burger {
+  display: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
- .burger{
-   display: none;
-   cursor: pointer;
-   transition:0.3s;
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(241, 241, 241);
+  margin: 5px;
+  transition: 0.3s;
+}
 
- }
-
- .burger div{
-   width: 25px;
-   height: 3px;
-   background-color: rgb(241, 241, 241);
-    margin: 5px;
-    transition: 0.3s;
-
- }
-
- @media screen and (max-width: 900px){
-    body{
-      overflow-x: hidden;
-      overflow-y: hidden;
-    }
-    .nav-links{
-      position: absolute;
-      right: 0px;
-      height: 85vh;
-      top: 8vh;
-      background-color: #1c1c1c;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 50%;
-      transform: translate(100%);
-      transition: transform, 0.5s ease-out;
-    }
-
-    .nav-links li{
-      opacity: 1;
-    }
-    .burger{
-      display: block;
-    }
-
- }
-
- @media screen and (max-width: 1000px){
-  .logo{
-    margin-left:0px;
-
+@media screen and (max-width: 1150px) {
+  body {
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
-  .About{
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 85vh;
+    top: 8vh;
+    background-color: #1c1c1c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translate(100%);
+    transition: transform, 0.5s ease-out;
+  }
+
+  .nav-links li {
+    opacity: 1;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .logo {
     margin-left: 0px;
   }
-  .footer-links{
+  .About {
+    margin-left: 0px;
+  }
+  .footer-links {
     width: 70%;
   }
- }
+}
 
-.nav-active{
+.nav-active {
   transform: translateX(0%);
 }
 
-.link{
+.link {
   display: inline-block;
 }
 
-.toggle .line1{
+.toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
   transition: 0.3s;
 }
-.toggle .line2{
+.toggle .line2 {
   opacity: 0;
   transition: 0.3s;
 }
-.toggle .line3{
+.toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
   transition: 0.3s;
-
 }
 
-.About{
+.About {
   display: block;
   padding: 40px;
   justify-content: space-around;
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-left: 20px;
   word-break: normal;
 }
 
-.Projects{
+.Projects {
   display: block;
   padding: 20px;
   justify-content: space-around;
 
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-left: 20px;
   word-break: normal;
 }

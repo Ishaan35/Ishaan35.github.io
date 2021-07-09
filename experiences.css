@@ -1,79 +1,76 @@
-.heading h1{
-    font-family: 'Montserrat', sans-serif;
-    padding-top: 3vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: xx-large;
+.heading h1 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 3vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: xx-large;
 }
 
-*{
-    overflow-y: visible;
+* {
+  overflow-y: visible;
 }
 
-.content-container{
-    width: 100%;
-    padding-top: 5vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    
-    align-self: center;   
-    justify-self: center; 
-    font-family: 'Montserrat', sans-serif;
-    position: relative;
+.content-container {
+  width: 100%;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+
+  align-self: center;
+  justify-self: center;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 
-
-.section-heading{
-    display: flex;
-    width: 100%;
-    position: relative;
-    align-items: center;
+.section-heading {
+  display: flex;
+  width: 100%;
+  position: relative;
+  align-items: center;
 }
 
-
-.line{
-    flex: 1;    
-    position: relative;
-    height: 4px;
-    background: #000000;
-    margin: 2vw;
+.line {
+  flex: 1;
+  position: relative;
+  height: 4px;
+  background: #000000;
+  margin: 2vw;
 }
 
 .experienceItem {
-    position: relative;
-    padding-top: 5vh;
-    padding-left: 5vw;
-    max-width: 100%;
+  position: relative;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  max-width: 100%;
 }
 
-.experienceImage{
-    display: inline-block;
-    vertical-align: top;
-    width: 45%;
+.experienceImage {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
 }
-.experienceText{
-    display: inline-block;
-    width: 55%;
+.experienceText {
+  display: inline-block;
+  width: 55%;
 }
-.experienceText p{
-    font-size: small;
-    margin-top: 2vh;
+.experienceText p {
+  font-size: small;
+  margin-top: 2vh;
 }
-.experienceText h3{
-    font-weight: 150;
-}
-
-.experienceItemList{
-    font-size: small;
-    margin-top: 2vh;
-    list-style: circle;
-
+.experienceText h3 {
+  font-weight: 150;
 }
 
-.experienceItemList li{
-    display: list-item;
-    list-style: disc;
-    text-decoration: dotted;
+.experienceItemList {
+  font-size: small;
+  margin-top: 2vh;
+  list-style: circle;
+}
+
+.experienceItemList li {
+  display: list-item;
+  list-style: disc;
+  text-decoration: dotted;
 }
