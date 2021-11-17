@@ -1,3 +1,8 @@
+* {
+  box-shadow: none;
+  border: none;
+  line-height: initial;
+}
 .heading h1 {
   font-family: "Montserrat", sans-serif;
   padding-top: 3vh;
@@ -37,6 +42,7 @@
   height: 4px;
   background: #000000;
   margin: 2vw;
+  width: 200%;
 }
 
 .experienceItem {
@@ -73,4 +79,63 @@
   display: list-item;
   list-style: disc;
   text-decoration: dotted;
+}
+
+.certificateItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.certificateText {
+  width: 90%;
+  text-align: center;
+  margin-top: 5vh;
+}
+.certificateText h3 {
+  font-weight: lighter;
+}
+
+.experienceListGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35rem);
+  justify-content: center;
+}
+.experienceItemCard {
+  border: 1.5px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  transition: 0.3s;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.experienceItemCard h1,
+h3 {
+  margin-top: 20px;
+  text-align: center;
+}
+.experienceItemCard p {
+  font-size: smaller;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.experienceItemCard:hover {
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  transform: scale(1.05);
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .experienceListGrid {
+    grid-template-columns: repeat(auto-fit, 95vw);
+  }
 }

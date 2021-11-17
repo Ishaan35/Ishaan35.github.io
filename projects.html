@@ -17,7 +17,9 @@
 <body>
 
     <div style="position: absolute; overflow-x: hidden; min-height: 100%; width: 100%;">
-        <!--Header-->
+
+        <!--------------------------------------------------------------Header------------------------------------------------------------------>
+
         <nav>
             <div class="logo">
                 <h4>Ishaan Patel</h4>
@@ -25,16 +27,21 @@
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="certificates.html">Certificates</a></li>
+                <li><a href="GameProjects.html">Game Projects</a></li>
                 <li><a href="experiences.html">Experience</a></li>
                 <li>
                     <a href="https://github.com/Ishaan35" target="_blank">
                         Github
                     </a>
                 </li>
-                <li><a href="https://www.linkedin.com/in/ishaan35/" target="_blank"> Linkedin</a></li>
                 <li><a href="https://www.youtube.com/channel/UCEShkg8TVshTmfDlvBZkXjw" target="_blank"> YouTube</a></li>
-                <li><a href="mailto:toishaanpatel@gmail.com" target="_blank"> Email</a></li>
-                <li><a href="https://www.instagram.com/ishaan_3_5/" target="_blank"> Instagram</a></li>
+                
+                <li><a href="connect.html" target="_blank"> Connect</a></li>
+                <!--
+                                                    <li><a href="mailto:toishaanpatel@gmail.com" target="_blank"> Email</a></li>
+                                <li><a href="https://www.instagram.com/ishaan_3_5/" target="_blank"> Instagram</a></li>
+                                <li><a href="https://www.linkedin.com/in/ishaan35/" target="_blank"> Linkedin</a></li>
+                                -->
 
             </ul>
             <div class="burger">
@@ -44,16 +51,133 @@
             </div>
         </nav>
 
-        <!--Project Cards-->
-        <div class="container">
-            <div class="projectBox">
-                <div class="imgBox">
-                    <img src="Images/PathfinderImage.PNG" width="95%">
+        <!-----------------------------------------------------------MAIN CONTENT------------------------------------------------------------------->
+
+        <div style="width: 100%; display: flex; justify-content: center;">
+
+
+            <!--Project Cards-->
+            <div class="container">
+
+                <div style="width: 100%; display: flex; justify-content: center; padding: 30px;">
+                    <h4 style="font-family: Montserrat, sans-serif; font-size: xxx-large; font-weight: 1200;">Programming Projects</h4>
                 </div>
-                <div class="content">
-                    <h2>Pathfinding Visualizer</h2>
-                    <br>
-                    <p>This is a tool I created with the Angular Framework with Typescript, HTML, and CSS. It helps
+                <!--Form Builder-->
+                <div class="projectBox">
+                
+                    <div class="imgBox">
+                        <iframe width="80%" height="100%" src="https://youtube.com/embed/p6VGaelpcAY"
+                            style="border-radius: 15px;" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">Form Builder</h2>
+                        <br>
+                
+                        <p style="padding-left:40px; padding-right: 40px;">This is a planned commercial project for a company I am working for. I cannot make my code publicly visible, however,
+                        there is a video that shows the project.
+                        
+                        This is a full-stack application created with the React JS framework (front-end) and Node JS (back-end). I used
+                        Javascript, HTML, CSS, MySQL (for the database), and Amazon Web Services (hosting static files). This web application
+                        allows users to create dynamic forms with an interactive user interface. Users can create dynamic forms with several
+                        types of inputs such as text, paragraph, radio, checkbox, and files.
+                        
+                        The user can make these forms public to start accepting responses and share the link with others. Users must create an
+                        account to create and share forms, however, a user does not need to be signed up to answer forms created by other users.
+                        These forms have an option to be password protected as well, in case the creator wants to make sure only select people
+                        with the password are able to submit responses.
+                        
+                        The creator of the form is able to make changes to the form, view responses, delete responses, and delete the form
+                        itself.
+                        
+                        Additionally, every user who is signed up with an account on this website is able to modify their personal information
+                        collected during registration and customize their profile with a profile picture. 
+                        </p>
+                    </div>
+                </div>
+                <!--E-learning portal-->
+                <div class="projectBox">
+
+                    <div class="imgBox">
+                        <iframe width="80%" height="100%" src="https://www.youtube.com/embed/ocFLxRuDqvQ"
+                            style="border-radius: 15px;" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">E-Learning Portal</h2>
+                        <br>
+                        <div class="ProjectLinks">
+                                <a href="https://e-learning-portal-ishaan.herokuapp.com/" target="_blank" class="projectLinkAnchor">
+                                    <button class="ProjectLinkButton">
+                                        <img src="Images/ELearningLogo.svg" width="13%">
+                                        <p style="font-size: 100%">Demo Link</p>
+                                    </button>
+                                </a>
+                                <a href="https://github.com/Ishaan35/E-Learning-Portal" target="_blank" class="projectLinkAnchor">
+                                    <button class="ProjectLinkButton">
+                                        <img src="Images/gitlogo.png" width="13%">
+                                        <p style="font-size: 100%">Github Link</p>
+                                    </button>
+                                </a>
+                        </div>
+
+                        <br>
+                        <p style="padding-left:40px; padding-right: 40px;">E-learning Portal is a web application that is meant for providing easy access between students and
+                            teachers during
+                            online learning. The app has two different types of users. You can register as a teacher, or you could
+                            register as a
+                            student. If you register as a teacher, you can create classrooms, and inside those classrooms, you can
+                            create quizzes,
+                            assignments with files, and announcements. If you register as a student, you can join classes with a
+                            unique code
+                            generated for that class. Students will be able to submit assignments and quizzes, while the teacher can
+                            grade the
+                            assignments. Quizzes are marked automatically since they are multiple-choice. Students and teachers are
+                            both able to
+                            post announcements and class comments in the classroom. Class comments are a good way to communicate
+                            with other peers in
+                            the class, however, not everyone would like to communicate publicly. For this reason, there is also a
+                            feature where
+                            users can communicate privately with other students or other teachers. In addition to the base
+                            functionality of
+                            classrooms, assignments, quizzes, and conversations, users can upload profile pictures to customize
+                            their profile. This project was my submission f0r the capstone project from <a
+                                href="https://cs50.harvard.edu/web/2020/" target="_blank" style="color:rgb(0, 115, 255); font-weight: bolder; text-decoration: underline;">CS50's Web Programming course offered by
+                                HarvardX</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <!--Pathfinder-->
+                <div class="projectBox">
+                
+                    <div class="imgBox">
+                        <img src="Images/PathfinderImage.PNG" width="80%" onclick='openLink("https://ishaan35.github.io/Pathfinding-Visualizer/")' style="cursor: pointer;">
+                    </div>
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">Pathfinding Visualizer</h2>
+                        <br>
+                        <div class="ProjectLinks">
+                            <a href="https://ishaan35.github.io/Pathfinding-Visualizer/" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/PathfinderLogo.png" width="13%">
+                                    <p style="font-size: 100%">Demo Link</p>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Ishaan35/Pathfinding-Visualizer" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/gitlogo.png" width="13%">
+                                    <p style="font-size: 100%">Github Link</p>
+                                </button>
+                            </a>
+                        </div>
+                
+                        <br>
+                        <p style="padding-left:40px; padding-right: 40px;">This is a tool I created with the Angular Framework with Typescript, HTML, and CSS. It helps
                         demonstrate the process of finding the path from point A to point B. There are three algorithms
                         in
                         this
@@ -65,33 +189,37 @@
                         implementation, while A* uses heuristics to optimize and guide its search. You can create custom
                         wall patterns
                         by drawing on the grid, or let it generate wall patterns
-                        for you. It also comes with mazes you can try out as well.</p>
-
-                    <a href="https://github.com/Ishaan35/Pathfinding-Visualizer" target="_blank">
-                        <div class="projectLink">
-                            <img src="Images/gitlogo.png" width="13%"
-                                style="margin-top: 4vh; margin-left: 10px; ">
-                        </div>
-
-                    </a>
-                    <a href="https://ishaan35.github.io/Pathfinding-Visualizer/" target="_blank">
-                        <div class="projectLink">
-                            <img src="Images/PathfinderLogo.png" width="17%"
-                                style=" margin-top: 4vh; margin-left: 10px; ">
-                        </div>
-                    </a>
+                        for you. It also comes with mazes you can try out as well. 
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-
-            <div class="projectBox">
-                <div class="imgBox">
-                    <img src="Images/Chess.PNG" width="95%">
-                </div>
-                <div class="content">
-                    <h2>Chess</h2>
-                    <br>
-                    <p>This is a chess engine created with JavaScript, HTML, and CSS. The computer can play against you
+                <!--Chess-->
+                <div class="projectBox">
+                
+                    <div class="imgBox">
+                        <img src="Images/Chess.PNG" width="80%" onclick='openLink("https://ishaan35.github.io/Chess/")' style="cursor: pointer;">
+                    </div>
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">Chess Engine</h2>
+                        <br>
+                        <div class="ProjectLinks">
+                            <a href="https://ishaan35.github.io/Chess/" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/ChessIcon.png" width="13%">
+                                    <p style="font-size: 100%">Demo Link</p>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Ishaan35/Chess" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/gitlogo.png" width="13%">
+                                    <p style="font-size: 100%">Github Link</p>
+                                </button>
+                            </a>
+                        </div>
+                
+                        <br>
+                        <p style="padding-left:40px; padding-right: 40px;">This is a chess engine created with JavaScript, HTML, and CSS. The computer can play against you
                         with three difficulty levels: easy, medium, hard. The chess engine uses the minimax algorithm to
                         decide on the best move to make. The minimax algorithm examines a large tree of possible moves
                         that can be played by the computer and the opponent (human player) depending on how far ahead
@@ -103,33 +231,82 @@
                         There is also a separate section related to global chess stats from chess.com which are obtained
                         from an API in JSON format using XMLHttpRequests. The stats feature the top 50 players in the
                         world on chess.com separated by different game modes such as rapid and bullet chess. This
-                        website is responsive and can be viewed on computers and mobile devices.</p>
-
-                    <a href="https://github.com/Ishaan35/Chess" target="_blank">
-                        <div class="projectLink">
-                            <img src="Images/gitlogo.png" width="15%"
-                                style="margin-top: 4vh; margin-left: 10px; ">
-                        </div>
-
-                    </a>
-                    <a href="https://ishaan35.github.io/Chess/" target="_blank">
-                        <div class="projectLink">
-                            <img src="Images/ChessIcon.png" width="16%"
-                                style=" margin-top: 9vh; margin-left: 10px; ">
-                        </div>
-                    </a>
+                        website is responsive and can be viewed on computers and mobile devices.
+                        </p>
+                    </div>
                 </div>
-            </div>
 
+                <!--Auction Website-->
+                <div class="projectBox">
+                
+                    <div class="imgBox">
+                        <iframe width="80%" height="100%" src="https://www.youtube.com/embed/yViqz2miICs"
+                            style="border-radius: 15px;" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
 
-            <div class="projectBox">
-                <div class="imgBox">
-                    <img src="Images/MoviesImage.PNG" width="90%">
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">Auction Website</h2>
+                        <br>
+                        <div class="ProjectLinks">
+                            <a href="https://auctions-app-ishaan.herokuapp.com/" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/Heroku Logo.png" width="13%">
+                                    <p style="font-size: 100%">Demo Link</p>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Ishaan35/Auctions-App" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/gitlogo.png" width="13%">
+                                    <p style="font-size: 100%">Github Link</p>
+                                </button>
+                            </a>
+                        </div>
+                
+                        <br>
+                        <p style="padding-left:40px; padding-right: 40px;">This is an auction management app created with the Django framework. This app is created with Python, HTML, and CSS.
+                        This app was also developed using a MySQL database and is deployed to Heroku using a PostgreSQL database. This was my
+                        submission to the Commerce project from <a href="https://cs50.harvard.edu/web/2020/" target="_blank" style="color:rgb(0, 115, 255); font-weight: bolder; text-decoration: underline;">CS50's Web
+                            Programming Course</a>.
+                        
+                        In this app, users are able to create accounts and post their own auctions. When creating an auction, you set the
+                        details of the item you are trying to sell, and upload a picture which gets saved to an Amazon Web Service S3 Bucket for
+                        hosting. Users can bid on other people's auctions and whenever the creator of the bid closes the Bid, the user with the
+                        highest bid wins!. You are able to save auctions to your watch list if you want to constantly monitor them, and you can
+                        filter auctions by their categories i.e electronics, appliances.
+                        </p>
+                    </div>
                 </div>
-                <div class="content">
-                    <h2>Movie Website</h2>
-                    <br>
-                    <p>This is a website I created with Javascript, HTML, and CSS. I created this website as an example
+
+                <!--Movie Website-->
+                <div class="projectBox">
+                
+                    <div class="imgBox">
+                        <img src="Images/MoviesImage.PNG" width="80%"
+                            onclick='openLink("https://ishaan35.github.io/Movie-Website/")' style="cursor: pointer;">
+                    </div>
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">Movie Website</h2>
+                        <br>
+                        <div class="ProjectLinks">
+                            <a href="https://ishaan35.github.io/Movie-Website/" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/MovieLogo.png" width="13%">
+                                    <p style="font-size: 100%">Demo Link</p>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Ishaan35/Movie-Website" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/gitlogo.png" width="13%">
+                                    <p style="font-size: 100%">Github Link</p>
+                                </button>
+                            </a>
+                        </div>
+                
+                        <br>
+                        <p style="padding-left:40px; padding-right: 40px;">This is a website I created with Javascript, HTML, and CSS. I created this website as an example
                         of
                         how APIs can be used in web development. Data is always changing, and static websites do not
                         update
@@ -142,30 +319,38 @@
                         in the search bar, and select your movie from the list of results. Once you select the movie,
                         you
                         will be given an entire page of detailed information about the selected movie. This is useful if
-                        somebody is wondering if a movie is worth watching or not.</p>
-                </div>
-                <a href="https://github.com/Ishaan35/Movie-Website" target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/gitlogo.png" width="13%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
+                        somebody is wondering if a movie is worth watching or not.
+                        </p>
                     </div>
+                </div>
 
-                </a>
-                <a href="https://ishaan35.github.io/Movie-Website/" target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/MovieLogo.png" width="13%"
-                            style=" margin-top: 4vh; margin-left: 10px; ">
+                <!--Sorting Visualizer-->
+                <div class="projectBox">
+                
+                    <div class="imgBox">
+                        <img src="Images/SortingImage.PNG" width="80%"
+                            onclick='openLink("https://ishaan35.github.io/Sorting-Visualizer/")' style="cursor: pointer;">
                     </div>
-                </a>
-            </div>
-            <div class="projectBox">
-                <div class="imgBox">
-                    <img src="Images/SortingImage.PNG" width="90%">
-                </div>
-                <div class="content">
-                    <h2>Sorting Visualizer</h2>
-                    <br>
-                    <p>This is a tool I created with the Angular Framework with Typescript, HTML, and CSS. It helps
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">Movie Website</h2>
+                        <br>
+                        <div class="ProjectLinks">
+                            <a href="https://ishaan35.github.io/Sorting-Visualizer/" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/SortingLogo.png" width="13%">
+                                    <p style="font-size: 100%">Demo Link</p>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Ishaan35/Sorting-Visualizer" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/gitlogo.png" width="13%">
+                                    <p style="font-size: 100%">Github Link</p>
+                                </button>
+                            </a>
+                        </div>
+                
+                        <br>
+                        <p style="padding-left:40px; padding-right: 40px;">This is a tool I created with the Angular Framework with Typescript, HTML, and CSS. It helps
                         demonstrate the process sorting a randomly generated list of numbers shown as bars of various
                         lengths. The
                         purpose of this project is to show how there are many ways to achieve the same product which is
@@ -178,33 +363,41 @@
                         bubble sort can
                         be very efficient in terms of using memory if there is memory shortage since there are no new
                         temporary data
-                        structures being created.</p>
-                </div>
-                <a href="https://github.com/Ishaan35/Sorting-Visualizer" target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/gitlogo.png" width="13%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
+                        structures being created.
+                        </p>
                     </div>
+                </div>
 
-                </a>
-                <a href="https://ishaan35.github.io/Sorting-Visualizer/" target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/SortingLogo.png" width="13%"
-                            style=" margin-top: 4vh; margin-left: 10px; ">
+                <!--Blood Test Tracker-->
+                <div class="projectBox">
+                
+                    <div class="imgBox">
+
+                        <img src="Images/BloodTestMainMenu.jpg" width="30%" style="margin-left: 2vw; margin-right: 2vw; cursor: pointer;" onclick='openLink("https://play.google.com/store/apps/details?id=com.ishaanp.test")'>
+                        <img src="Images/bloodTestCreateRecord.jpg" width="30%"
+                            style="margin-left: 2vw; margin-right: 2vw; cursor: pointer;" onclick='openLink("https://play.google.com/store/apps/details?id=com.ishaanp.test")'>
+                        <img src="Images/BloodTestGuide.jpg" width="30%" style="margin-left: 2vw; margin-right: 2vw; cursor: pointer;" onclick='openLink("https://play.google.com/store/apps/details?id=com.ishaanp.test")'>
                     </div>
-                </a>
-            </div>
-            <div class="projectBox">
-                <div class="imgBox">
-                    <img src="Images/BloodTestMainMenu.jpg" width="30%" style="margin-left: 2vw; margin-right: 2vw;">
-                    <img src="Images/bloodTestCreateRecord.jpg" width="30%"
-                        style="margin-left: 2vw; margin-right: 2vw;">
-                    <img src="Images/BloodTestGuide.jpg" width="30%" style="margin-left: 2vw; margin-right: 2vw;">
-                </div>
-                <div class="content">
-                    <h2>Blood Test Records Tracker and Guide</h2>
-                    <br>
-                    <p>This is an app I created using Android Studio with Java. The main purpose of this app is to track
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">Blood Test Tracker</h2>
+                        <br>
+                        <div class="ProjectLinks">
+                            <a href="https://play.google.com/store/apps/details?id=com.ishaanp.test" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/PlayStoreImage.png" width="25%">
+                                    <p style="font-size: 100%">App Link</p>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Ishaan35/Blood-Test-Result-Tracker-Android-App" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/gitlogo.png" width="13%">
+                                    <p style="font-size: 100%">Github Link</p>
+                                </button>
+                            </a>
+                        </div>
+                
+                        <br>
+                        <p style="padding-left:40px; padding-right: 40px;">This is an app I created using Android Studio with Java. The main purpose of this app is to track
                         your blood test results for future reference. The user inputs all of the values from their blood
                         test results into a new record with a list of fields, and the app stores that data. The user can
                         also input custom data such as weight. There is also a feature that allows the user to create
@@ -213,27 +406,86 @@
                         mean with detailed information. The user can also compare specific results such as vitamin D
                         across
                         different records from different dates, allowing the user to see if the values improve or get
-                        worse. This app uses many object oriented programming principles to make code more organized, and to improve the flexibility of the program.</p>
-                </div>
-                <a href="https://github.com/Ishaan35/Blood-Test-Result-Tracker-Android-App__In-Progress"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/gitlogo.png" width="13%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
+                        worse. This app uses many object oriented programming principles to make code more organized, and to improve the
+                        flexibility of the program.
+                        </p>
                     </div>
-
-                </a>
-
-            </div>
-            <div class="projectBox">
-                <div class="imgBox">
-                    <img src="Images/MyWeatherApp.PNG" width="80%" style="margin-left: 2vw; margin-right: 2vw;">
-
                 </div>
-                <div class="content">
-                    <h2>My Weather App</h2>
-                    <br>
-                    <p> This is a light-weight weather app created on Android Studio with the Java programming
+
+                <!--Social Network Website-->
+                <div class="projectBox">
+                
+                    <div class="imgBox">
+                        <iframe width="80%" height="100%" src="https://www.youtube.com/embed/Wa74k-OKujA"
+                            style="border-radius: 15px;" title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">Social Network Website</h2>
+                        <br>
+                        <div class="ProjectLinks">
+                            <a href="https://social-network-ishaan.herokuapp.com/" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/Heroku Logo.png" width="13%">
+                                    <p style="font-size: 100%">Demo Link</p>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Ishaan35/Social-Network-App" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/gitlogo.png" width="13%">
+                                    <p style="font-size: 100%">Github Link</p>
+                                </button>
+                            </a>
+                        </div>
+                
+                        <br>
+                        <p style="padding-left:40px; padding-right: 40px;">This is a social network app created with the Django framework. This app is created with Python, Javascript, HTML,
+                        and CSS.
+                        This app was also developed using a SQLite database and is deployed to Heroku using a PostgreSQL database.
+                        This was my
+                        submission to the Network project from <a href="https://cs50.harvard.edu/web/2020/" target="_blank" style="color:rgb(0, 115, 255); font-weight: bolder; text-decoration: underline;">CS50's
+                            Web Programming Course</a>.
+                        
+                        In this app, users are able to create accounts and create their own posts, follow users, view their posts, and like or
+                        unlike posts. This is similar to other social media apps such as Instagram or Facebook. When creating an account, you
+                        can set your personal information, as well as a profile picture. When creating a post, you can upload a picture and
+                        create a caption. You can also edit posts. All data except for images goes into the PostgreSQL database. Images go to
+                        the Amazon Web Services S3 bucket designated for this app.
+                        </p>
+                    </div>
+                </div>
+
+                <!--My Weather App-->
+                <div class="projectBox">
+                
+                    <div class="imgBox">
+                        <img src="Images/MyWeatherApp.PNG" width="80%"
+                            onclick='openLink("https://play.google.com/store/apps/details?id=com.ishaanp.weatherapp")' style="cursor: pointer;">
+                    </div>
+                
+                    <div class="content">
+                        <h2 style="padding-left: 40px; padding-right: 40px; padding-top: 10px;">My Weather App</h2>
+                        <br>
+                        <div class="ProjectLinks">
+                            <a href="https://play.google.com/store/apps/details?id=com.ishaanp.weatherapp" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/PlayStoreImage.png" width="25%">
+                                    <p style="font-size: 100%">App Link</p>
+                                </button>
+                            </a>
+                            <a href="https://github.com/Ishaan35/My-Weather-App" target="_blank" class="projectLinkAnchor">
+                                <button class="ProjectLinkButton">
+                                    <img src="Images/gitlogo.png" width="13%">
+                                    <p style="font-size: 100%">Github Link</p>
+                                </button>
+                            </a>
+                        </div>
+                
+                        <br>
+                        <p style="padding-left:40px; padding-right: 40px;">This is a light-weight weather app created on Android Studio with the Java programming
                         language. This weather app uses a weather API's JSON data and displays current weather anywhere.
                         It
                         also
@@ -242,211 +494,23 @@
                         Location to identify your location. Another feature of this app is that it can recommend
                         clothing to
                         wear based
-                        on the selected location's current weather.</p>
+                        on the selected location's current weather.
+                        </p>
+                    </div>
                 </div>
-                <a href="https://github.com/Ishaan35/My-Weather-App"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/gitlogo.png" width="13%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.ishaanp.weatherapp"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/PlayStoreImage.png" width="25%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-
-            </div>
-            <div class="projectBox">
-                <div class="imgBox">
-                    <img src="Images/MyMarioKart.jpg" width="90%" style="margin-left: 2vw; margin-right: 2vw;">
-
-                </div>
-                <div class="content">
-                    <h2>3D Mario Kart in Unity</h2>
-                    <br>
-                    <p> This is a 3D Mario game made in Unity using C#. I am a big fan of mario
-                        games with Mario Kart being one of my favourites as it is the most fun. I wanted to attempt
-                        making a
-                        small
-                        personal Mario Kart Game on my own and it is turning out to be a fun and interesting challenge.
-                        The
-                        game also
-                        has AI racers which the player can race against. Not all of the
-                        modelling is my own work, and certainly most of the assets belong to Nintendo. However, all of
-                        the
-                        programming
-                        and animations present in the game are my own work.</p>
-                </div>
-                <a href="https://github.com/Ishaan35/Unity3D-Mario-Kart-With-AI-In-Progress"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/gitlogo.png" width="13%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-                <a href="https://www.youtube.com/channel/UCEShkg8TVshTmfDlvBZkXjw"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/youtubesquare.png" width="15%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-
-            </div>
-            <div class="projectBox">
-                <div class="imgBox">
-                    <img src="Images/HighwayRunnerImage.PNG" width="80%" style="margin-left: 2vw; margin-right: 2vw;">
-
-                </div>
-                <div class="content">
-                    <h2>Super Highway Runner</h2>
-                    <br>
-                    <p> This is one of my first 3D games that I created with Unity and C#. In the game, the player has
-                        to select a
-                        car and then survive as long as possible on the road without touching any of the cars in the
-                        traffic. It is an
-                        endless runner which gets more difficult the longer you survive by makng your car faster. The
-                        game
-                        ends as soon
-                        as you bump into another car. The controls are touch screen and the player moves through the
-                        lanes.
-                        There is
-                        another game mode which uses tilt controls which utilizes the gyroscope on your phone and is
-                        more
-                        difficult than
-                        the standard mode. The game saves your high score, your cash, and your purchased cars with the
-                        in-game currency
-                        as well. This game currently has hundreds of reviews and downloads.</p>
-                </div>
-                <a href="https://github.com/Ishaan35/SuperHighwayRunner"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/gitlogo.png" width="13%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.HighwayRunner.DM"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/PlayStoreImage.png" width="25%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-
-            </div>
-            <div class="projectBox">
-                <div class="imgBox">
-                    <img src="Images/RainingCubesImage.PNG" width="80%" style="margin-left: 2vw; margin-right: 2vw;">
-
-                </div>
-                <div class="content">
-                    <h2>Raining Cubes</h2>
-                    <br>
-                    <p> This is another 3D mobile game that I have created with Unity and C#. This game features a
-                        rolling sphere which has to avoid falling objects by rolling across the stage using the phone's
-                        gyroscope. There
-                        are a few themes which the player can choose from depending on his/her style and the player's
-                        highscore is
-                        recorded for future reference. This game has hundreds of downloads and reviews on the Play Store
-                        as
-                        well.</p>
-                </div>
-                <a href="https://github.com/Ishaan35/Raining-Cubes"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/gitlogo.png" width="13%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-                <a href="https://play.google.com/store/apps/details?id=com.RainingCubes.DM"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/PlayStoreImage.png" width="25%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-
-            </div>
-            <div class="projectBox" style="margin-bottom: 150px;">
-                <div class="imgBox">
-                    <img src="Images/Mario3D.PNG" width="90%" style="margin-left: 2vw; margin-right: 2vw;">
-
-                </div>
-                <div class="content">
-                    <h2>Mario 3D World in Unity</h2>
-                    <br>
-                    <p> This is a 3D platformer game inspired by Mario created with Unity and C#. In
-                        this game, there are a few levels which I created from 3D models which were made by Nintendo.
-                        The
-                        player has to
-                        move around and destroy enemies, get coins, and find some interesting challenges along the way.
-                        The
-                        modelling is
-                        not entirely my work, however all the animations and programming is my own work.</p>
-                </div>
-                <a href="https://github.com/Ishaan35/3D-Mario-platforming-game----in-progress-"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/gitlogo.png" width="13%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-                <a href="https://www.youtube.com/channel/UCEShkg8TVshTmfDlvBZkXjw" target="_blank"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/youtubesquare.png" width="15%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
-
-                </a>
-
-            </div>
-
-            <div class="projectBox" style="margin-bottom: 150px;">
-                <div class="imgBox">
-                    <img src="Images/Fireworks.JPG" width="90%" style="margin-left: 2vw; margin-right: 2vw;">
             
-                </div>
-                <div class="content">
-                    <h2>Fireworks Simulation</h2>
-                    <br>
-                    <p> This is a project made in Processing (A language based on Java). The purpose of this project is to visualize and
-                    simulate different firework effects. This project features a starry sky with continuous fireworks being generated with
-                    all sorts of different colors, visual effects, and audio effects. There is also a nice meteor shower playing in the
-                    background.</p>
-                </div>
-                <a href="https://github.com/Ishaan35/Fireworks-Simulation"
-                    target="_blank">
-                    <div class="projectLink">
-                        <img src="Images/gitlogo.png" width="13%"
-                            style="margin-top: 4vh; margin-left: 10px; ">
-                    </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
             
-                </a>
-                
             
             </div>
-
-            
-
-
         </div>
-
-
-        <!--footer-->
+        
+        <!-----------------------------------------------------------------footer--------------------------------------------------->
+        
         <nav style="position: absolute; bottom: 0; width: 100%; left: 0;">
 
             <ul class="footer-links" style="padding-bottom: 5px; padding-top: 5px;">
@@ -477,6 +541,7 @@
 
 
     <script src="app.js"></script>
+    <script src="projects.js"></script>
 
 </body>
 

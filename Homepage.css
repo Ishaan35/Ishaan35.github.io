@@ -4,6 +4,9 @@
   text-decoration: none;
   box-sizing: border-box;
   overflow-x: hidden;
+  box-shadow: none;
+  border: none;
+  line-height: initial;
 }
 
 body {
@@ -25,7 +28,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  min-height: 11vh;
+  min-height: 14vh;
   background-color: #1c1c1c;
   font-family: "Montserrat", sans-serif;
 }
@@ -35,7 +38,7 @@ nav {
   letter-spacing: 2px;
   font-size: 25px;
   font-weight: 800;
-  margin-left: -100px;
+  margin-left: -50px;
 }
 
 .nav-links {
@@ -51,17 +54,27 @@ nav {
   width: 45%;
   vertical-align: middle;
   z-index: 0;
+  overflow: hidden;
+}
+
+.footer-links li {
+  transition: 0.2s;
+}
+.footer-links li:hover {
+  transition: 0.2s;
+  transform: scale(1.25);
 }
 
 .nav-links a {
   color: rgb(241, 241, 241);
   letter-spacing: 1px;
-  font-size: 15px;
+  font-size: 16px;
   transition: 0.4s;
 }
 
 .nav-links :hover {
   color: rgb(194, 194, 194);
+  text-decoration: underline;
 }
 
 .burger {
@@ -106,18 +119,6 @@ nav {
   }
 }
 
-@media screen and (max-width: 1100px) {
-  .logo {
-    margin-left: 0px;
-  }
-  .About {
-    margin-left: 0px;
-  }
-  .footer-links {
-    width: 70%;
-  }
-}
-
 .nav-active {
   transform: translateX(0%);
 }
@@ -147,6 +148,7 @@ nav {
   font-family: "Montserrat", sans-serif;
   margin-left: 20px;
   word-break: normal;
+  width: 100%;
 }
 
 .Projects {
@@ -157,4 +159,56 @@ nav {
   font-family: "Montserrat", sans-serif;
   margin-left: 20px;
   word-break: normal;
+}
+
+.connectLinks {
+  width: 100%;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.connectLinkItem {
+  width: 90%;
+  margin-bottom: 10px;
+}
+.connectLinkButton {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  transition: 0.4s;
+  cursor: pointer;
+  height: 14vh;
+}
+.connectLinkButton:hover {
+  background-color: rgb(39, 39, 39);
+  border: 2px solid white;
+  color: white;
+}
+.connectLinkButton p {
+  font-size: large;
+  font-weight: 500;
+}
+
+.email {
+  font-size: 100px;
+}
+@media screen and (max-width: 1100px) {
+  .logo {
+    margin-left: 0px;
+  }
+  .About {
+    margin-left: 0px;
+  }
+  .footer-links {
+    width: 70%;
+  }
+  .email {
+    font-size: 2px;
+  }
 }
